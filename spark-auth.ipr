@@ -5,8 +5,8 @@
       <output-path>$PROJECT_DIR$/out/artifacts/spark_auth_jar</output-path>
       <root id="archive" name="spark-auth.jar">
         <element id="module-output" name="spark-auth" />
-        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.7/commons-codec-1.7.jar" path-in-jar="/" />
       </root>
@@ -120,14 +120,6 @@
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2-sources.jar!/" />
       </SOURCES>
-    </library>
-    <library name="org.apache.commons:commons-lang3:3.4" type="repository">
-      <properties maven-id="org.apache.commons:commons-lang3:3.4" />
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
     </library>
   </component>
 </project>
